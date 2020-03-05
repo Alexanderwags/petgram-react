@@ -1,9 +1,10 @@
 import React from 'react'
-import { Category } from './components/Category'
-// eslint-disable-next-line padded-blocks
-export const App = () => {
+import { ListOfCategories } from './components/ListOfCategories'
+import { GlobalStyle } from './GlobalStyles'
 
-  return (
-    <Category />
-  )
-}
+export const App = () => (
+  <>
+    <GlobalStyle />
+    <ListOfCategories />
+  </>
+)
